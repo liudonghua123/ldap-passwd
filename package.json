@@ -1,0 +1,14 @@
+{
+  "name": "ldap-passwd",
+  "version": "0.1.0",
+  "main": "index.js",
+  "bin": {
+    "ldap-passwd": "./bin/ldap-passwd.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "debug": "^4.1.1",
+    "yargs": "^15.1.0"
+  }
+}
