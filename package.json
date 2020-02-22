@@ -5,6 +5,9 @@
   "bin": {
     "ldap-passwd": "./bin/ldap-passwd.js"
   },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
   "license": "MIT",
   "dependencies": {
     "chalk": "^3.0.0",
