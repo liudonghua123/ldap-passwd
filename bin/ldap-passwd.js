@@ -8,7 +8,7 @@ const chalk = require('chalk');
 // https://github.com/visionmedia/debug
 const debug = require('debug')('ldap-passwd:bin');
 
-const { checkPassword, hashPassword } = require('../index');
+const { checkPassword, hashPassword } = require('../lib/index');
 
 const argv = require('yargs')
   .usage('Usage: $0 <command> [options]')

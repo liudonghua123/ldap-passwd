@@ -1,7 +1,7 @@
 {
   "name": "ldap-passwd",
   "version": "0.1.0",
-  "main": "index.js",
+  "main": "lib/index.js",
   "bin": {
     "ldap-passwd": "./bin/ldap-passwd.js"
   },
