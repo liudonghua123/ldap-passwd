@@ -35,7 +35,7 @@ const generated_hashed_password = hashPassword('SHA1', plain_password);
 
 ## Snapshot
 
-[![asciicast](https://asciinema.org/a/RfuVkjN8UFgd64MrP5DDetv9M.svg)](https://asciinema.org/a/RfuVkjN8UFgd64MrP5DDetv9M)
+[![asciicast](https://asciinema.org/a/303920.svg)](https://asciinema.org/a/303920)
 
 ## License
 

@@ -69,16 +69,14 @@ switch (command) {
   case 'verify':
     debug(`do verifying...`);
     const is_valid = checkPassword(password, check_hash, salt_size, suffixed) === true;
-    console.info(
-      `verify result: ${is_valid ? chalk.bgGreen.blue.bold(is_valid) : chalk.bgRed.yellow.italic(is_valid)}`
-    );
+    console.info(`verify result: ${is_valid ? chalk.blue.bold(is_valid) : chalk.yellow.italic(is_valid)}`);
 
     break;
   case 'generate':
     debug(`do generate...`);
     salt = salt ? Buffer.from(salt, salt_base64_encoded ? 'base64' : 'utf8').toString('hex') : null;
     hash_password = hashPassword(encoder, password, salt, salt_size, suffixed);
-    console.info(chalk.bgGreen.blue.bold(hash_password));
+    console.info(chalk.blue.bold(hash_password));
     break;
   default:
     debug(`command should be specified as verify or generate, you provided ${command}`);
