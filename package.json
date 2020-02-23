@@ -5,8 +5,22 @@
   "bin": {
     "ldap-passwd": "./bin/ldap-passwd.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liudonghua123/ldap-passwd.git"
+  },
+  "keywords": [
+    "ldap",
+    "userPassword",
+    "cli"
+  ],
+  "author": "Donghua Liu",
+  "bugs": {
+    "url": "https://github.com/liudonghua123/ldap-passwd/issues"
+  },
   "publishConfig": {
-    "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
   },
   "license": "MIT",
   "dependencies": {
